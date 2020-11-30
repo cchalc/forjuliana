@@ -46,3 +46,7 @@ for month in months[2:5]:
 
     # plt.show()
     plt.savefig('figures/{}'.format(month))
+
+    # Output the daily data
+    ts_daily.to_csv("daily_average.csv", index=True)
+    ts_monthly.to_csv("monthly_average.csv", index=True)
