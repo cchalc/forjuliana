@@ -3,6 +3,7 @@
 2. Clone repo
 ```console
 git clone https://github.com/cchalc/forjuliana.git
+```
 3. Change directory
 ```console
 cd forjuliana
